@@ -183,3 +183,58 @@ export const mainMenu = [
 		}
 	}
 ]
+
+
+export const  topics = [
+	{
+		title : 'Türkiye tarihinde gündemde',
+		topic : {
+			type :'tag',
+			value : 'topic name'
+		}
+	},
+	{
+		title : 'Türkiye tarihinde gündemde',
+		topic : {
+			type : 'query',
+			value: 'Starlink'
+		},
+		postCount : 9281521
+	},
+	{
+		title : 'Türkiye tarihinde gündemde',
+		topic : {
+			type :'tag',
+			value : 'topic name'
+		}
+	},
+	{
+		title : 'Türkiye tarihinde gündemde',
+		topic : {
+			type :'tag',
+			value : 'topic name'
+		}
+	},
+	{
+		title : 'Türkiye tarihinde gündemde',
+		topic : {
+			type :'tag',
+			value : 'topic name'
+		}
+	},
+	{
+		title : 'Türkiye tarihinde gündemde',
+		topic : {
+			type :'tag',
+			value : 'topic name'
+		}
+	},
+	{
+		title : 'Türkiye tarihinde gündemde',
+		topic : {
+			type :'tag',
+			value : 'topic name'
+		}
+	},
+	
+]
