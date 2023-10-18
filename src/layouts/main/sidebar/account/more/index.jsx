@@ -27,7 +27,7 @@ export const More = ({close}) => {
 
                         <h6 className='leading-[20px]font-bold'>{account.fullName}</h6>
 
-                        <div className='text-[#71767b] '>
+                        <div className='text-[color:var(--color-base-secondary)] '>
                             @{account.userName}
                         </div>
 
@@ -43,14 +43,14 @@ export const More = ({close}) => {
             ))}
             <div className='h-px bg-[#2f3336] my-3'/>
 
-            <button className='py-3 px-4 text-left transition-colors hover:bg-[#eff3f41a] w-full text-[15px] text-[#e7e9ea]'>
+            <button className='py-3 px-4 text-left transition-colors hover:bg-[#eff3f41a] w-full text-[15px] '>
                 Var olan bir hesap ekle
             </button>
 
-            <button className='py-3 px-4 text-left transition-colors hover:bg-[#eff3f41a] w-full text-[15px] text-[#e7e9ea]'>
+            <button className='py-3 px-4 text-left transition-colors hover:bg-[#eff3f41a] w-full text-[15px] '>
                 Hesapları Yönet
             </button>
-            <button className='py-3 px-4 text-left transition-colors hover:bg-[#eff3f41a] w-full text-[15px] text-[#e7e9ea] leading-[20px]'>
+            <button className='py-3 px-4 text-left transition-colors hover:bg-[#eff3f41a] w-full text-[15px] leading-[20px]'>
                <div className='max-w-[228px]'>
                     @{currentAccount.fullName} hesabından çıkış yap
                </div>

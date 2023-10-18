@@ -3,7 +3,7 @@ import { Button } from '../../../../components/button'
 
 export const Premium = () => {
   return (
-    <section className='bg-[#16181c] mb-4 rounded-2xl border-[#16181c] py-4 px-4 flex flex-col gap-2.5 text-[#e7e9ea]'>
+    <section className='bg-[color:var(--background-secondary)] mb-4 rounded-2xl border-[color:var(--background-secondary)] py-4 px-4 flex flex-col gap-2.5 '>
         <h6 className='text-xl font-extrabold leading-6'>Premium'a Abone Ol</h6>
         <p className='leading-5 text-[15px] font-bold '>Yeni çzellikleri açmak için abone ol ve uygun olman durumunda reklam geliri payı kazan</p>
        <div className='self-start'>
