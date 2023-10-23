@@ -138,6 +138,7 @@ export const AppearanceModal = ({ close }) => {
 									setBackgroundColor({
 										name: 'light',
 										primary: '#fff',
+										primaryAlpha: '#ffffffa6',
 										secondary: '#f7f9f9',
 										third: '#eff3f4',
 										modal: '#00000066'
@@ -178,6 +179,7 @@ export const AppearanceModal = ({ close }) => {
 									setBackgroundColor({
 										name: 'dark',
 										primary: '#15202b',
+										primaryAlpha: '#15202ba6',
 										secondary: '#1e2732',
 										third: '#263340',
 										modal: '#5b708366'
@@ -217,6 +219,7 @@ export const AppearanceModal = ({ close }) => {
 										name: 'darker',
 										primary: '#000',
 										secondary: '#16181c',
+										primaryAlpha: '#000000a6',
 										third: '#212327',
 										modal: '#5b708366'
 									})

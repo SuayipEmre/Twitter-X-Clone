@@ -1,9 +1,10 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 
 export const Logo = () => {
+    const navigate = useNavigate()
     return (
-        <div className='py-0.5'>
+        <div onClick={() => navigate('/')} className='py-0.5'>
             <Link to={'/'} className='w-[52px] text-[color:var(--color-base)] h-[52px] rounded-full flex items-center justify-center hover:bg-[color:var(--background-third)] transition-colors'>
                 <svg viewBox="0 0 24 24" className="h-[1.875rem]">
                     <path
